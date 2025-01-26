@@ -22,14 +22,7 @@ export default function ControlPage() {
             </div>
           </div>
   
-          <div className="mt-8">
-            <a
-              href="/"
-              className="inline-block bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg transition-colors duration-300"
-            >
-              ← Volver al inicio
-            </a>
-          </div>
+         
         </div>
       </div>
     );
