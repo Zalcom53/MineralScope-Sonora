@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ControlPage() {
     return (
       <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex items-center justify-center p-4">
@@ -22,7 +24,13 @@ export default function ControlPage() {
             </div>
           </div>
   
-         
+          <div className="flex justify-center mb-6">
+            <Link href="/">
+              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded transition-all duration-300 transform hover:scale-105">
+                Inicio
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
     );

@@ -1,4 +1,4 @@
-"use client"; // Necesario para componentes interactivos
+"use client"; 
 import React from "react";
 import Link from "next/link";
 import { BackgroundLines } from "@/components/ui/background-lines";
@@ -26,7 +26,7 @@ export default function BackgroundLinesDemo() {
         </div>
       </div>
 
-      {/* Imagen del logo */}
+
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20">
         <img 
           src="/unison-logo.png" 
