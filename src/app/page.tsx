@@ -15,6 +15,11 @@ export default function BackgroundLinesDemo() {
           <p className="text-sm md:text-lg text-neutral-700 dark:text-neutral-400 text-center leading-relaxed md:leading-loose mb-6">
             Un proyecto de la Universidad de Sonora hecho por la Licenciatura en Ciencias de la Computación.
           </p>
+        
+          <p className="text-[0.6rem] md:text-[1.0rem] text-neutral-700 dark:text-neutral-400 text-center leading-relaxed md:leading-loose mb-6">
+            Hermosillo,Sonora,Mexico.
+          </p>
+
           
           <div className="flex justify-center mb-8">
             <Link href="/control">

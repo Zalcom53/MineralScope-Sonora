@@ -28,7 +28,7 @@ export const BackgroundLines = ({
 };
 
 const pathVariants = {
-  initial: { strokeDashoffset: 800, strokeDasharray: "50 800" },
+  initial: { strokeDashoffset: 2000, strokeDasharray: "50 800" },
   animate: {
     strokeDashoffset: 0,
     strokeDasharray: "20 800",
